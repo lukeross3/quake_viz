@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "quake-viz"
+version = "0.1.0"
+description = ""
+authors = ["Luke Ross <lukeross@umich.edu>"]
+readme = "README.md"
+packages = [{include = "quake_viz"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.5"
+matplotlib = "^3.10.1"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
